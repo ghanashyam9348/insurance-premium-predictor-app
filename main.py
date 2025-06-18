@@ -2,7 +2,7 @@ import streamlit as st
 from prediction_helper import predict
 
 # --- Page Setup ---
-st.set_page_config(page_title="Insurance Premium Input UI", layout="centered")
+st.set_page_config(page_title="Health Insurance Premium prediction ", layout="centered")
 st.title("🚑 Insurance Premium Estimator")
 st.markdown("### Enter applicant details below:")
 
