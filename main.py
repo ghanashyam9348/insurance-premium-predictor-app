@@ -3,7 +3,7 @@ from prediction_helper import predict
 
 # --- Page Setup ---
 st.set_page_config(page_title="Insurance Premium Input UI", layout="centered")
-st.title("🚑 Insurance Premium Predictor")
+st.title("🚑 Health Insurance Premium Predictor")
 st.markdown("### Enter applicant details below:")
 
 # --- Row 1: Age, Number of Dependents, Income in Lakhs ---
@@ -74,7 +74,7 @@ if st.button("Predict Insurance Premium"):
     prediction = predict(input_dict)
 
     st.markdown("---")
-    st.markdown("### 🧾 Predicted Insurance Premium")
+    st.markdown("### 🧾 Predicted Health Insurance Premium")
 
     # Display predicted value in a success box
     st.success(f"💰 Estimated Premium Amount: ₹ {prediction:,.2f}")
