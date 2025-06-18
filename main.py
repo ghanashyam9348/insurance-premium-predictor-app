@@ -18,7 +18,7 @@ with col3:
 # --- Row 2: Income Level, Genetic Risk ---
 col4, col5 = st.columns(2)
 with col4:
-    income_level = st.selectbox("Income Level", ['> 40L', '<10L', '10L - 25L', '25L - 40L'])
+    income_level = st.selectbox("Income Level", ['<10L', '10L - 25L', '25L - 40L','> 40L'])
 with col5:
     genetical_risk = st.number_input("Genetical Risk (0 to 10)", min_value=0, max_value=10, step=1)
 
