@@ -3,7 +3,7 @@ from prediction_helper import predict
 
 # --- Page Setup ---
 st.set_page_config(page_title="Insurance Premium Input UI", layout="centered")
-st.title("🚑 Health Insurance Premium Predictor")
+st.markdown("<h1 style='display: flex; align-items: center;'>🚑&nbsp;Health Insurance Premium Predictor</h1>", unsafe_allow_html=True)
 st.markdown("### Enter applicant details below:")
 
 # --- Row 1: Age, Number of Dependents, Income in Lakhs ---
