@@ -4,6 +4,13 @@ This project is a **Machine Learning-based web application** that predicts the e
 
 ---
 
+## 🔗 Demo
+
+👉 Try the live app here:  
+[**🏥 Health Insurance Premium Estimator – Streamlit App**](https://ml-health-insurance-premium-predictor--1.streamlit.app)
+
+---
+
 ## 🔍 Overview
 
 The project demonstrates a complete end-to-end ML pipeline, including:
